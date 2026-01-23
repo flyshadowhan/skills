@@ -1,0 +1,26 @@
+{
+  "name": "Resume Validation",
+  "description": "Validates resume content for key sections and minimum work experience ( > 5 years).",
+  "required_strings": [
+    "Experience",
+    "Education",
+    "Skills"
+  ],
+  "regex_patterns": [
+    {
+      "name": "Work Experience > 5 Years",
+      "pattern": "\\b([6-9]|[1-9][0-9]+)\\s*(years?|年|载)",
+      "description": "Matches mentions of 6 or more years of experience (e.g., '6 years', '10年')."
+    },
+    {
+      "name": "Contact Phone",
+      "pattern": "(\\+?\\d{1,3}[- .]?)?(\\d{10,11})",
+      "description": "Matches standard phone number formats."
+    },
+    {
+      "name": "Email Address",
+      "pattern": "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}",
+      "description": "Checks for a valid email address for contact."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Invoice Validation",
+  "description": "Checks for standard invoice fields and valid formats.",
+  "required_strings": [
+    "Invoice",
+    "Total",
+    "Date",
+    "Bill To"
+  ],
+  "regex_patterns": [
+    {
+      "name": "Email Address",
+      "pattern": "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}",
+      "description": "Must contain at least one valid email address."
+    },
+    {
+      "name": "Currency Amount",
+      "pattern": "\\$\\d{1,3}(,\\d{3})*(\\.\\d{2})?",
+      "description": "Must contain a currency amount (e.g., $1,000.00)."
+    }
+  ]
+}

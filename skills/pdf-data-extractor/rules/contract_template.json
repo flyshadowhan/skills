@@ -1,0 +1,27 @@
+{
+  "document_type": "contract",
+  "extraction_targets": [
+    {
+      "field_name": "contract_subject",
+      "description": "The main entity or subject matter of the contract",
+      "required": true
+    },
+    {
+      "field_name": "contract_amount",
+      "description": "The total monetary value of the contract",
+      "type": "currency",
+      "validation": "must be > 0"
+    },
+    {
+      "field_name": "effective_date",
+      "description": "The date when the contract becomes effective",
+      "type": "date",
+      "format": "YYYY-MM-DD"
+    },
+    {
+      "field_name": "parties",
+      "description": "List of parties involved in the contract (e.g., Buyer, Seller)",
+      "type": "list"
+    }
+  ]
+}

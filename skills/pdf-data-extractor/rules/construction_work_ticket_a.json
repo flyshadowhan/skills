@@ -1,0 +1,21 @@
+{
+  "document_type": "construction_work_ticket_a",
+  "extraction_targets": [
+    {
+      "field_name": "work_location",
+      "description": "作业部位",
+      "required": true
+    },
+    {
+      "field_name": "team_leader",
+      "description": "班组负责人",
+      "required": true
+    },
+    {
+      "field_name": "risk_control_measures",
+      "description": "作业过程风险控制措施",
+      "type": "list",
+      "required": true
+    }
+  ]
+}

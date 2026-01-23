@@ -15,6 +15,12 @@ This repository contains skills that demonstrate what's possible with Claude's s
 
 Each skill is self-contained in its own folder with a `SKILL.md` file containing the instructions and metadata that Claude uses. Browse through these skills to get inspiration for your own skills or to understand different patterns and approaches.
 
+### Additional Skills Introduction
+
+- **PDF Content Validator** (`pdf-content-validator`): 验证 PDF 内容是否符合业务规则、检查合规性、对比版本并生成报告。适用于深度阅读 PDF、根据特定要求验证内容或检查缺失信息。
+- **PDF Data Extractor** (`pdf-data-extractor`): 专门用于从复杂的 PDF 文档（合同、发票、表格）中提取结构化数据的代理。支持将非结构化文本解析为 JSON/CSV、根据业务规则验证数据或从多页文档中提取特定字段。
+- **Word Style Transfer** (`word-style-transfer`): 分析 Word 文档样式并生成格式和语气匹配的新文档。适用于需要创建严格模拟现有模板视觉风格和写作语气的 .docx 文件。
+
 Many skills in this repo are open source (Apache 2.0). We've also included the document creation & editing skills that power [Claude's document capabilities](https://www.anthropic.com/news/create-files) under the hood in the [`skills/docx`](./skills/docx), [`skills/pdf`](./skills/pdf), [`skills/pptx`](./skills/pptx), and [`skills/xlsx`](./skills/xlsx) subfolders. These are source-available, not open source, but we wanted to share these with developers as a reference for more complex skills that are actively used in a production AI application.
 
 ## Disclaimer
