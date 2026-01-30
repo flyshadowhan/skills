@@ -4,6 +4,5 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-- [ ] **Track: ¸ù¾İ¸ø³öµÄ Markdown »ò´¿ÎÄ±¾Ñù±¾ÎÄµµ·ÖÎöĞ´×÷·ç¸ñÓëÎÄ±¾½á¹¹£¬²¢½«ÆäÓ¦ÓÃµ½ĞÂÉú³ÉµÄÄÚÈİÖĞ**
+- [ ] **Track: æ ¹æ®ç»™å‡ºçš„ Markdown æˆ–çº¯æ–‡æœ¬æ ·æœ¬æ–‡æ¡£åˆ†æå†™ä½œé£æ ¼ä¸æ–‡æœ¬ç»“æ„ï¼Œå¹¶å°†å…¶åº”ç”¨åˆ°æ–°ç”Ÿæˆçš„å†…å®¹ä¸­**
   *Link: [./tracks/text_style_transfer_20260129/](./tracks/text_style_transfer_20260129/)*
-
