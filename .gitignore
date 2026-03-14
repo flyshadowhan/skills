@@ -3,7 +3,6 @@ __pycache__/
 .idea/
 .vscode/
 
-*.py
 *.pdf
 QWEN.md
 desc.md
